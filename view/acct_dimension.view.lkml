@@ -159,8 +159,8 @@ view: dim_account {
   }
 
   dimension: account_status {
-    type: string
-    sql: ${TABLE}.CURRACCTSTATCD ;;
+  type: string
+  sql: ${TABLE}.CURRACCTSTATCD ;;
   }
 
   dimension: open_date {
